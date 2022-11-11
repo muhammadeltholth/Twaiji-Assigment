@@ -1,0 +1,104 @@
+<article class="table-header">
+    <div>
+        <h1 >Invoices</h1>
+      <button class="button-add-row" mat-button (click)="addRow()">
+        Add Invoice
+      </button>
+    </div>
+  </article>
+  <table mat-table [dataSource]="dataSource">
+    <ng-container [matColumnDef]="col.key" *ngFor="let col of columnsSchema">
+      <th mat-header-cell *matHeaderCellDef>
+        {{ col.label }}
+      </th>
+      <td mat-cell *matCellDef="let element">
+        <div [ngSwitch]="col.type" *ngIf="!element.isEdit">
+          <ng-container *ngSwitchCase="'isSelected'">
+            <mat-checkbox
+              (change)="element.isSelected = $event.checked"
+            ></mat-checkbox>
+          </ng-container>
+          <div class="btn-edit" *ngSwitchCase="'isEdit'">
+            <button mat-button (click)="element.isEdit = !element.isEdit">
+              Edit
+            </button>
+            <button
+              mat-button
+              class="button-remove"
+              (click)="removeRow(element.invoiceId)"
+            >
+              Delete
+            </button>
+          </div>
+          <span *ngSwitchCase="'checkbox'">
+            {{ element[col.key] ==0? false :true }}
+          </span>
+          <span *ngSwitchCase="'select'">
+              {{element[col.cascade][col.value]}}
+          </span>
+          <span *ngSwitchCase="'date'">
+            {{ element[col.key] | date: 'mediumDate' }}
+          </span>
+          <span *ngSwitchDefault>
+            {{ element[col.key] }}
+          </span>
+        </div>
+        <div [ngSwitch]="col.type" *ngIf="element.isEdit">
+          <div *ngSwitchCase="'isSelected'"></div>
+          <ng-container *ngSwitchCase="'checkbox'">
+            <mat-checkbox
+              [(ngModel)]="element[col.key]"
+            ></mat-checkbox>
+          </ng-container>
+          <ng-container *ngSwitchCase="'select'">
+            <mat-form-field >
+            <mat-select [(ngModel)]="element[col.key]">
+                <mat-option  *ngFor="let customer of dataCustomers" [value]="customer.customerId"  >
+                  {{customer.customerName}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </ng-container>
+          <div class="btn-edit" *ngSwitchCase="'isEdit'">
+            <button
+              mat-button
+              (click)="editRow(element)"
+              [disabled]="disableSubmit(element.invoiceId)"
+            >
+              Done
+            </button>
+          </div>
+          <mat-form-field
+            class="form-input"
+            *ngSwitchCase="'date'"
+            appearance="fill"
+          >
+            <mat-label>Choose a date</mat-label>
+            <input
+              matInput
+              [matDatepicker]="picker"
+              [(ngModel)]="element[col.key]"
+            />
+            <mat-datepicker-toggle
+              matSuffix
+              [for]="picker"
+            ></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+          <mat-form-field class="form-input" *ngSwitchDefault>
+            <input
+              matInput
+              [required]="col.required"
+              [pattern]="col.pattern"
+              [type]="col.type"
+              [(ngModel)]="element[col.key]"
+              (change)="inputHandler($event, element.id, col.key)"
+            />
+          </mat-form-field>
+        </div>
+      </td>
+    </ng-container>
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+  </table>
+  

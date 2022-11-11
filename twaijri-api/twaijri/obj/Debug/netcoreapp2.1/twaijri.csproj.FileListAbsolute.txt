@@ -1,0 +1,50 @@
+D:\New folder\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.AssemblyInfoInputs.cache
+D:\New folder\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.AssemblyInfo.cs
+D:\New folder\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.csproj.CoreCompileInputs.cache
+D:\New folder\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.RazorAssemblyInfo.cache
+D:\New folder\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.RazorAssemblyInfo.cs
+D:\New folder\twaijri\twaijri\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\New folder\twaijri\twaijri\bin\Debug\netcoreapp2.1\appsettings.json
+D:\New folder\twaijri\twaijri\bin\Debug\netcoreapp2.1\twaijri.deps.json
+D:\New folder\twaijri\twaijri\bin\Debug\netcoreapp2.1\twaijri.runtimeconfig.json
+D:\New folder\twaijri\twaijri\bin\Debug\netcoreapp2.1\twaijri.runtimeconfig.dev.json
+D:\New folder\twaijri\twaijri\bin\Debug\netcoreapp2.1\twaijri.dll
+D:\New folder\twaijri\twaijri\bin\Debug\netcoreapp2.1\twaijri.pdb
+D:\New folder\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.RazorTargetAssemblyInfo.cache
+D:\New folder\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.dll
+D:\New folder\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.pdb
+D:\New folder\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.genruntimeconfig.cache
+D:\New folder\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.csproj.AssemblyReference.cache
+E:\New folder (2)\twaijri\twaijri\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\New folder (2)\twaijri\twaijri\bin\Debug\netcoreapp2.1\appsettings.json
+E:\New folder (2)\twaijri\twaijri\bin\Debug\netcoreapp2.1\twaijri.deps.json
+E:\New folder (2)\twaijri\twaijri\bin\Debug\netcoreapp2.1\twaijri.runtimeconfig.json
+E:\New folder (2)\twaijri\twaijri\bin\Debug\netcoreapp2.1\twaijri.runtimeconfig.dev.json
+E:\New folder (2)\twaijri\twaijri\bin\Debug\netcoreapp2.1\twaijri.dll
+E:\New folder (2)\twaijri\twaijri\bin\Debug\netcoreapp2.1\twaijri.pdb
+E:\New folder (2)\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.csproj.AssemblyReference.cache
+E:\New folder (2)\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.GeneratedMSBuildEditorConfig.editorconfig
+E:\New folder (2)\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.AssemblyInfoInputs.cache
+E:\New folder (2)\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.AssemblyInfo.cs
+E:\New folder (2)\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.csproj.CoreCompileInputs.cache
+E:\New folder (2)\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.RazorAssemblyInfo.cache
+E:\New folder (2)\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.RazorAssemblyInfo.cs
+E:\New folder (2)\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.RazorTargetAssemblyInfo.cache
+E:\New folder (2)\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.dll
+E:\New folder (2)\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.pdb
+E:\New folder (2)\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.genruntimeconfig.cache
+E:\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.csproj.CoreCompileInputs.cache
+E:\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.RazorAssemblyInfo.cache
+E:\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.RazorAssemblyInfo.cs
+E:\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.AssemblyInfoInputs.cache
+E:\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.AssemblyInfo.cs
+E:\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.dll
+E:\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.pdb
+E:\twaijri\twaijri\bin\Debug\netcoreapp2.1\twaijri.deps.json
+E:\twaijri\twaijri\bin\Debug\netcoreapp2.1\twaijri.runtimeconfig.json
+E:\twaijri\twaijri\bin\Debug\netcoreapp2.1\twaijri.runtimeconfig.dev.json
+E:\twaijri\twaijri\bin\Debug\netcoreapp2.1\twaijri.dll
+E:\twaijri\twaijri\bin\Debug\netcoreapp2.1\twaijri.pdb
+E:\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.RazorTargetAssemblyInfo.cache
+E:\twaijri\twaijri\obj\Debug\netcoreapp2.1\twaijri.csprojAssemblyReference.cache
